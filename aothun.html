@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="icon" href="./images/icon_logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Áo thun</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Tìm trong áo thun..."
+            class="search_input"
+          />
+          <button class="search_nut">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/622/622669.png"
+              alt="Tìm kiếm"
+            />
+          </button>
+          <button class="gio_hang">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/107/107831.png"
+              alt="Giỏ hàng"
+            />
+            <span class="gio_hang_sl">0</span>
+          </button>
+        </div>
+        <div class="text-head">
+          <a href="index.html">Trang chủ</a>
+          <a href="">Chính sách đổi trả</a>
+          <a href="index.html" class="logo">
+            <p>CoolWear</p>
+          </a>
+          <a href="bangsize.html">Bảng size</a>
+          <a href="">Hệ thống cửa hàng</a>
+        </div>
+        <hr class="duong_ke" />
+        <div class="phan_loai">
+          <a href="Allsp.html">Tất cả sản phẩm</a>
+          <a href="aothun.html">Áo thun</a>
+          <a href="aopolo.html">Áo Polo</a>
+          <a href="aosomi.html">Áo sơ mi</a>
+          <a href="aokhoac.html">Áo khoác</a>
+          <a href="hoodie.html">Hoodie</a>
+          <a href="quan.html">Quần</a>
+        </div>
+        <!-- Lọc theo gia tien -->
+        <div class="loc_gia" style="text-align: center; margin-bottom: 15px">
+          <img
+            src="https://bizweb.dktcdn.net/100/415/697/themes/1034668/assets/filter.svg?1754039006665"
+            alt="Filter"
+          />
+          <p>Fillter</p>
+          <select id="filterPrice" onchange="locTheoGia()">
+            <option value="all">Giá Tiền</option>
+            <option value="duoi200">Dưới 200k</option>
+            <option value="200-300">200k - 300k</option>
+            <option value="tren300">Trên 300k</option>
+          </select>
+        </div>
+        <div class="san_pham">
+          <hr />
+        </div>
+        <div class="danhmucs">
+          <!--Áo thun-->
+          <div class="font"><a href="">Áo thun</a></div>
+          <div class="cloths">
+           
+            <div class="product-item">
+              <a href="aothun1.html"
+                ><img src="images/aothun1.1.webp" alt="" /><br />
+                <p>Áo thun đen form rộng</p></a
+              >
+              <div class="gia">200.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothun10.html"
+                ><img src="images/10.webp" alt="" /><br />
+                <p>Áo thun trắng form rộng</p></a
+              >
+              <div class="gia">300.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothun11.html"
+                ><img src="images/aothun11.webp" alt="" /><br />
+                <p>Áo thun CappyPara</p></a
+              >
+              <div class="gia">200.200đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothun12.html"
+                ><img src="images/aothun12.webp" alt="" /><br />
+                <p>Áo thun Amario</p>
+              </a>
+              <div class="gia">100.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothun9.html"
+                ><img src="images/aothun9.webp" alt="" /><br />
+                <p>Áo thun logo Lorents</p>
+              </a>
+              <div class="gia">210.000đ</div>
+            </div>
+
+            <div class="product-item">
+              <a href="aothun2.html"
+                ><img src="images/aothun10.webp" alt="" /><br />
+                <p>Áo Thun Local Brand Sancool Unisex</p>
+              </a>
+              <div class="gia">150.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothun3.html"
+                ><img src="images/aothun3.webp" alt="" /><br />
+                <p>Áo thun Unisex Local Brand</p>
+              </a>
+              <div class="gia">150.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothun6.html"
+                ><img src="images/6.webp" alt="" /><br />
+                <p>Áo thun Insomnia Club</p>
+              </a>
+              <div class="gia">300.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothun13.html"
+                ><img src="images/aothun13.webp" alt="" /><br />
+                <p>Áo thun Unisex HEAVEN MESSY</p>
+              </a>
+              <div class="gia">200.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothunteelab.html"
+                ><img src="images/aaothunteelab.webp" alt="" /><br />
+                <p>Áo thun Teelab</p>
+              </a>
+              <div class="gia">250.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothunlacda.html"
+                ><img src="images/aothunlacda.webp" alt="" /><br />
+                <p>Áo thun "Little Dog"</p>
+              </a>
+              <div class="gia">180.000đ</div>
+            </div>
+
+           
+            <div class="product-item">
+              <a href="aothuness.html"
+                ><img src="images/aothuness.webp" alt="" /><br />
+                <p>Áo thun Nơ Lụa Unim Club</p>
+              </a>
+              <div class="gia">220.000đ</div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="ban_quyen">
+        <footer>
+          <img src="images/logo_bct.webp" alt="" />
+          <p>&copy; 2025 CoolWear</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script src="chucnang.js"></script>
+</html>
