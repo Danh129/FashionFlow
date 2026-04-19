@@ -1,4 +1,4 @@
-# 👕 FashionFlow - Website Kinh Doanh Thời Trang Hiện Đại
+# 👕 FASHIONFLOW - Website KINH DOANH THỜI TRANG HIỆN ĐẠI
 
 ![Web Version](https://img.shields.io/badge/Version-1.0.0-orange?style=for-the-badge)
 ![UI/UX](https://img.shields.io/badge/Design-Responsive-brightgreen?style=for-the-badge)
@@ -34,6 +34,10 @@ Website không chỉ là nơi trưng bày sản phẩm mà còn tập trung tố
 
 ## 📸 Demo giao diện
 > [<img width="1836" height="867" alt="anhthoitrang" src="https://github.com/user-attachments/assets/7a90be2d-5b27-4c86-9a0d-3fee676234ec" />]
+> [<img width="1828" height="865" alt="anhlocgia" src="https://github.com/user-attachments/assets/a3897a1f-cc25-4c53-9847-f3425582fa1d" />]
+> [<img width="1828" height="758" alt="anhxoa" src="https://github.com/user-attachments/assets/ceb9479b-efcf-4c24-82ef-d2222e82a31e" />]
+> [<img width="1852" height="866" alt="anhsize" src="https://github.com/user-attachments/assets/40d48373-4433-419b-88ea-2a24bd0bb8f1" />]
+
 
 ## 👤 Thông tin phát triển
 * **Lập trình viên:** Lê Thanh Danh
